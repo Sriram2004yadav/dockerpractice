@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub')
-        IMAGENAME = 'komakulakavya/flaskd'
-        GITREPO = 'https://github.com/Komakulakavya/dockerwithjenkins.git'
+        IMAGENAME = 'sriram040/flaskapp'
+        GITREPO = 'https://github.com/Sriram2004yadav/dockerpractice'
         BRANCH = 'main'
     }
 
