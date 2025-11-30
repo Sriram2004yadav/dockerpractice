@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub')
+        DOCKERHUB_CREDENTIALS = credentials('dockerhub-cred')
         IMAGENAME = 'sriram040/flaskapp'
         GITREPO = 'https://github.com/Sriram2004yadav/dockerpractice'
         BRANCH = 'main'
